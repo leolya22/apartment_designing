@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    color: #533738;
+}
+body {
+    background-color: #E5E5E5;
+}
+h2 {
+    font-size: 40px;
+    line-height: 125%;
+    text-transform: uppercase;
+}
+a {
+    font-size: 16px;
+    line-height: 20px;
+}
+.text {
+    font-size: 18px;
+    line-height: 167%;
+}
+.h3 {
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 37px;
+    color: #FFFFFF;
+}
+.h1 {
+    font-size: 50px;
+    line-height: 124%;
+}
+a {
+    text-decoration: none;
+}
+.white__text {
+    color: #FFFFFF;
+}
+.center__align{
+    text-align: center;
+}
+.eclipse {
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 30px;
+}
+.main__header {
+    background-image: url(./img/background_img_for_header.png);
+}
+::placeholder {
+    color: #FFFFFF;
+}
+.form__anchor {
+    font-weight: 500;
+    background: #CC8B86;
+    font-size: 20px;
+    line-height: 24px;
+}
+.studio {
+    display:block;
+    width: 488px;
+    height: 451px;
+    background-image: url(./img/background_for_studio.png);
+    background-size: cover;
+}
+.studio::before {
+    display:block;
+    content: '';
+    position:absolute;
+    background: rgba(100, 72, 69, 0.8);
+    width: 488px;
+    height: 451px;
+    z-index:0;
+}
+.look__for__more {
+    color: #533738;
+}
+.band {
+    background: #8D7370;
+}
+.team {
+    background-color: #E2C4BA;
+}
